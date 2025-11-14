@@ -47,7 +47,7 @@
 - category: "Computational Method Development"
   category_ko: ""
   description: "Applying machine learning and deep learning techniques to clinical data for disease prediction, diagnosis, and treatment optimization."
-  keywords: "Genomic Data, Pathology Image, ML, CNN, small VLM"
+  keywords: "Genomic Data, Pathology Image, ML, CNN, smallVLM"
   order: 2
   projects:
     - title: "NGS-based Sample Identity Verification"
