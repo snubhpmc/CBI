@@ -1,0 +1,63 @@
+---
+layout: page
+permalink: /people/members/
+title: Members
+nav: false
+---
+
+##### Current
+
+<div class="row">
+{% for student in site.data.team_members.phd_students %}
+  <div class="col-sm-6 col-md-3" style="margin-bottom: 2rem;">
+    {% if student.photo %}
+    <img src="{{ '/assets/img/team/' | append: student.photo | relative_url }}" class="img-fluid rounded" alt="{{ student.name }}">
+    {% endif %}
+    <h5 style="margin-top: 0.8rem; font-size: 1rem;">{{ student.name }}</h5>
+    <p style="font-size: 0.85rem;">
+    <strong>{{ student.position }}</strong><br>
+    {{ student.year }}<br>
+    <em>{{ student.research }}</em>
+    </p>
+    {% if student.email %}
+    <p style="font-size: 0.85rem;"><a href="mailto:{{ student.email }}"><i class="fas fa-envelope"></i> Email</a></p>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
+---
+
+##### Alumni
+
+<div class="row">
+{% for student in site.data.team_members.masters_students %}
+  <div class="col-sm-6 col-md-3" style="margin-bottom: 2rem;">
+    {% if student.photo %}
+    <img src="{{ '/assets/img/team/' | append: student.photo | relative_url }}" class="img-fluid rounded" alt="{{ student.name }}">
+    {% endif %}
+    <h5 style="margin-top: 0.8rem; font-size: 1rem;">{{ student.name }}</h5>
+    <p style="font-size: 0.85rem;">
+    <strong>{{ student.position }}</strong><br>
+    {{ student.year }}<br>
+    <em>{{ student.research }}</em>
+    </p>
+    {% if student.email %}
+    <p style="font-size: 0.85rem;"><a href="mailto:{{ student.email }}"><i class="fas fa-envelope"></i> Email</a></p>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
+---
+
+
+
+<div class="text-center" style="margin-top: 3rem; padding: 2rem; background-color: white; border-radius: 8px;">
+  <h4>We're Hiring!</h4>
+  <p style="font-size: 1.1rem; margin-top: 1rem;">
+    We are actively seeking passionate students and researchers to join our team.<br>
+    If you are interested in clinical bioinformatics and computational medicine,<br>
+    don't hesitate to contact us!
+  </p>
+</div>

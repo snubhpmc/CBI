@@ -1,0 +1,27 @@
+<div class="resources">
+  {% if site.data.resources != blank %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in site.data.resources %}
+          <tr>
+            <th scope="row" style="width: 25%">
+              <span style="color: #666;">{{ item.category }}</span>
+            </th>
+            <td>
+              <a href="{{ item.url }}" target="_blank" style="font-weight: 500;">{{ item.name }}</a>
+              {% if item.url contains '://' %}
+                <svg width="1rem" height="1rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" style="margin-left: 0.3rem;">
+                  <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" stroke="#999" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              {% endif %}
+              <br>
+              <span style="color: #666; font-size: 0.9rem;">{{ item.description }}</span>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No resources available yet...</p>
+  {% endif %}
+</div>

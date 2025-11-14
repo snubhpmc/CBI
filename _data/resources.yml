@@ -1,0 +1,11 @@
+- name: NGSCheckMate
+  category: Software
+  url: https://github.com/parklab/NGSCheckMate
+  description: Identifying next generation sequencing (NGS) data files from the same individual
+
+- name: MIRACLE
+  category: Software
+  url: https://github.com/JinWookArgon/MIRACLE
+  description: Detecting MSI status using RNA-seq data
+
+

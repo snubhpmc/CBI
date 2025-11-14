@@ -1,0 +1,67 @@
+---
+---
+{% if entry.year != prev_year %}
+  {% if forloop.first %}
+    <h2 class="year" style="color: var(--global-theme-color); font-size: 1rem; margin-bottom: 0.8rem;">{{ entry.year }}</h2>
+  {% endif %}
+{% endif %}
+
+<div class="row">
+  <div class="col-sm-12">
+    <div class="publication-item" style="margin-bottom: 0.2rem;">
+      <div style="line-height: 1.5; font-size: 0.9rem;">
+        <!-- Authors from bibtex author field -->
+        {% assign author_string = entry.bibtex | split: 'author = {' %}
+        {% if author_string.size > 1 %}
+          {% assign author_part = author_string[1] | split: '}' %}
+          {% if author_part[0] and author_part[0] != '' %}
+            {{ author_part[0] }},
+          {% endif %}
+        {% endif %}
+
+        <!-- Title with link to journal -->
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank" style="font-weight: 500; color: #0066cc; text-decoration: underline;">{{ entry.title }}</a>,
+        {% else %}
+          {{ entry.title }},
+        {% endif %}
+
+        <!-- Journal/Booktitle -->
+        {% if entry.journal %}
+          <em>{{ entry.journal }}</em>
+        {% elsif entry.booktitle %}
+          <em>{{ entry.booktitle }}</em>
+        {% endif %}
+
+        <!-- Volume(Issue) -->
+        {% if entry.volume %}
+          , {{ entry.volume }}
+          {% if entry.number %}
+            ({{ entry.number }})
+          {% endif %}
+        {% endif %}
+
+        <!-- Year -->
+        {% if entry.year %}
+          , ({{ entry.year }})
+        {% endif %}
+      </div>
+
+      <!-- Links -->
+      <div class="links" style="margin-top: 0.3rem;">
+        {% if entry.pdf %}
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.75rem; padding: 0.2rem 0.5rem;">PDF</a>
+        {% endif %}
+        {% if entry.code %}
+          <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.75rem; padding: 0.2rem 0.5rem;">Code</a>
+        {% endif %}
+        {% if entry.appendix %}
+          <a href="{{ entry.appendix }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.75rem; padding: 0.2rem 0.5rem;">Appendix</a>
+        {% endif %}
+        {% if entry.artifact %}
+          <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.75rem; padding: 0.2rem 0.5rem;">Artifact</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

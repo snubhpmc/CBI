@@ -1,0 +1,58 @@
+# Lab Team Members
+# 이 파일을 수정하여 팀원 정보를 업데이트하세요
+
+principal_investigator:
+  - name: "Sejoon Lee"
+    name_en: "Sejoon Lee"
+    title: "Principal Investigator"
+    position: "Associated Professor"
+    affiliation:
+      - "Precision Medicine Center, SNUBH"
+      - "Department of Genomic Medicine, SNU"
+      - "Department of Pathology and Translational Medicine, SNUBH"
+      - "Department of Applied Bioengineering, GSCST, SNU"
+    email: "sejooning@gmail.com"
+    photo: "sjlee.jpg"  # assets/img/team/ 폴더에 저장
+    google_scholar: "https://scholar.google.com/citations?user=GMRxCKIAAAAJ&hl=ko"
+    research_interests:
+      - "Clinical Bioinformatics"
+      - "Genomics"
+      - "Data mining"
+      - "Deep learning"
+    bio: ""
+
+phd_students:
+  - name: "Jin-Ok Lee"
+    name_en: "Jin-Ok Lee"
+    position: "PhD candidate"
+    year: "2022-present"
+    email: "jinoklee.01@gmail.com"
+    photo: "jolee.jpg"
+    google_scholar: "https://scholar.google.com/citations?user=egJ93-4AAAAJ&hl=ko"
+    research: "Bioinformatics, Deep learning"
+
+  - name: "Jin-Wook Choi"
+    name_en: "Jin-Wook Choi"
+    position: "PhD candidate"
+    year: "2023-present"
+    email: "argon502@snu.ac.kr"
+    photo: "jwchoi.jpg"
+    google_scholar: "https://scholar.google.com/citations?user=zAgvvXcAAAAJ&hl=en&oi=sra"
+    research: "Bioinformatics, Singel cell, Spatial transcriptomics"
+
+# masters_students:
+#   - name: "박영희"
+#     name_en: "Younghee Park"
+#     position: "Master's Student"
+#     year: "2023-Present"
+#     email: "park@example.com"
+#     photo: "student3.jpg"
+#     research: "Bioinformatics"
+
+# # 졸업생 정보 (선택사항)
+# alumni:
+#   - name: "이영수"
+#     name_en: "Youngsu Lee"
+#     degree: "PhD"
+#     year: "2023"
+#     current_position: "Postdoc at Stanford University"

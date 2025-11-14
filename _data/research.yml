@@ -1,0 +1,135 @@
+- category: "Multi-Omics Analysis"
+  category_ko: ""
+  description: "We utilize genomic data to develop personalized treatment strategies and improve patient outcomes through precision medicine approaches."
+  keywords: "WGS, WES, RNA-seq, Single-Cell, Spatial Transcriptomics"
+  order: 1
+  projects:
+    - title: "Microsatellite Instability Analysis"
+      description: "MSI analysis across cancer types for precision oncology"
+      image: "DNA-msi.png"
+      detail_description: "Comprehensive microsatellite instability (MSI) analysis across various cancer types to identify potential biomarkers for precision oncology and personalized treatment strategies."
+      paper_title: ""
+      paper_link: ""
+      highlight: true
+
+    - title: "Genome-Wide Association Studies"
+      description: "Identifying genetic variants associated with complex diseases"
+      image: ""
+      detail_description: "Disease variant analysis and biomarker discovery through comprehensive genome-wide association studies."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Bulk RNA-seq Analysis"
+      description: "Differential expression analysis for disease mechanisms"
+      image: ""
+      detail_description: "Bulk RNA-seq differential expression analysis and Transcriptome-wide association Studies (TWAS) for understanding disease mechanisms."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Single-Cell RNA Sequencing"
+      description: "Cellular heterogeneity analysis in disease contexts"
+      image: ""
+      detail_description: "Single-cell RNA-seq for analyzing cellular heterogeneity and spatial transcriptomics to understand tissue architecture."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+- category: "Computational Method Development"
+  category_ko: ""
+  description: "Applying machine learning and deep learning techniques to clinical data for disease prediction, diagnosis, and treatment optimization."
+  keywords: "Genome Data, Pathology Image, ML, CNN, small VLM"
+  order: 2
+  projects:
+    - title: "NGS-based Sample Identity Verification"
+      description: "Sample identity verification in human using NGS data"
+      image: "checkmate.png"
+      detail_description: "NGS-based sample identity verification tool for human samples to ensure data integrity and prevent sample mix-ups in genomic studies."
+      paper_title: ""
+      paper_link: ""
+      highlight: true
+
+    - title: "MSI Detection using RNA-seq"
+      description: "RNA-seq based microsatellite instability detection"
+      image: "RNA-msi.png"
+      detail_description: "MIRACLE: Microsatellite instability (MSI) detection using RNA-seq data, enabling MSI status determination without DNA sequencing."
+      paper_title: ""
+      paper_link: ""
+      highlight: true
+
+    - title: "NGSCheckMate2 for Mammals"
+      description: "Extended sample verification for mammalian species"
+      image: "ngscheckmate2.png"
+      detail_description: "NGS-based sample identity verification extended to various mammalian species for cross-species genomic research."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Tumor Purity Prediction"
+      description: "Computational prediction of tumor purity from genomic data"
+      image: ""
+      detail_description: "Machine learning-based tumor purity prediction to improve accuracy of downstream genomic analyses."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Drug Response Prediction"
+      description: "AI-driven drug response prediction from histopathology images"
+      image: ""
+      detail_description: "Deep learning models for predicting drug response directly from histopathology images, enabling personalized treatment selection."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+- category: "Network Biology"
+  category_ko: ""
+  description: "Network analysis for drug repurposing and disease relationships"
+  keywords: "Mendelian Randomization, Drug Repurposing"
+  order: 3
+  projects:
+    - title: "Mendelian Randomization Analysis"
+      description: "Causal inference in disease-trait relationships"
+      image: "network.png"
+      detail_description: "Mendelian Randomization (MR) analysis to establish causal relationships between genetic variants, biomarkers, and disease outcomes."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Disease-Disease Pleiotropy"
+      description: "Understanding shared genetic architecture across diseases"
+      image: ""
+      detail_description: "Analysis of disease-disease pleiotropy relationships to identify shared genetic mechanisms and potential therapeutic targets."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Drug Repurposing"
+      description: "Identifying new uses for existing drugs"
+      image: ""
+      detail_description: "Network-based drug repurposing and repositioning strategies to discover new therapeutic applications for existing medications."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+- category: "Database Resources"
+  category_ko: ""
+  description: "Developing population-specific genomic resources to enable personalized medicine and facilitate genetic research in Korean populations."
+  keywords: "Short Tandem Repeat, Transposable Elements"
+  order: 4
+  projects:
+    - title: "Korean TE Variation Database"
+      description: "Korean population transposable elements variation resource"
+      image: "KTED.png"
+      detail_description: "Comprehensive database of transposable element (TE) variations in Korean populations, providing population-specific genomic resources for precision medicine."
+      paper_title: ""
+      paper_link: ""
+      highlight: true
+
+    - title: "Korean STR Variation Database"
+      description: "Korean population short tandem repeat variation resource"
+      image: ""
+      detail_description: "Database of Short Tandem Repeat (STR) variations specific to Korean populations, enabling population-specific genetic research and clinical applications."
+      paper_title: ""
+      paper_link: ""
+      highlight: false

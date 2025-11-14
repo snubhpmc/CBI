@@ -1,0 +1,61 @@
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      <div class="footer-content">
+        <!-- 주소 정보 -->
+        <div class="address-info">
+          {{ site.footer_text }}
+        </div>
+
+        <!-- 저작권 정보 -->
+        <div class="copyright">
+          &copy; {{ site.time | date: '%Y' }}
+          {{ site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name }}
+        </div>
+      </div>
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    <div class="container">
+      <div class="footer-content">
+        <!-- 왼쪽: 주소 섹션 -->
+        <div class="address-section">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <img src="{{ '/assets/img/down_logo.png' | relative_url }}" alt="Logo" style="height: 60px; flex-shrink: 0;">
+            <div style="min-width: 300px;">
+              <div class="institution" style="margin-bottom: 0.3rem; white-space: nowrap;">{{ site.institution }}</div>
+              <div class="address-info">{{ site.footer_text }}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 오른쪽: Find us on 섹션 -->
+        <div class="social-section">
+          <div class="section-title">Find us on</div>
+          <div class="social-links">
+            {% if site.email %}
+              <a href="mailto:{{ site.email }}" title="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+            {% endif %}
+            {% if site.github_username %}
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub">
+                <i class="ai ai-github"></i>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- 저작권 정보 -->
+      <div class="copyright">
+        &copy; {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.last_name }}
+      </div>
+    </div>
+  </footer>
+{% endif %}
