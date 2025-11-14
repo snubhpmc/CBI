@@ -1,6 +1,8 @@
 
 # Lab-page 
 
+랩 홈페이지 주소입니다. 
+
 https://snubhpmc.github.io/CBI/
 
 <hr>
