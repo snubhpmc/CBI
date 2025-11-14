@@ -122,7 +122,7 @@
     - title: "Korean TE insertion Database"
       description: "Korean population transposable elements variation resource"
       image: "KTED.png"
-      detail_description: "Comprehensive database of transposable element (TE) insertion in Korean populations, providing population-specific genomic resources for precision medicine."
+      detail_description: "Comprehensive database of transposable element (TE) insertion in Korean populations"
       paper_title: ""
       paper_link: ""
       highlight: true
