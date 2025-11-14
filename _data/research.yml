@@ -39,7 +39,7 @@
 - category: "Computational Method Development"
   category_ko: ""
   description: "Applying machine learning and deep learning techniques to clinical data for disease prediction, diagnosis, and treatment optimization."
-  keywords: "Genome Data, Pathology Image, ML, CNN, small VLM"
+  keywords: "Genomic Data, Pathology Image, ML, CNN, small VLM"
   order: 2
   projects:
     - title: "NGS-based Sample Identity Verification"
@@ -60,8 +60,16 @@
 
     - title: "NGSCheckMate2 for Mammals"
       description: "Extended sample verification for mammalian species"
-      image: "ngscheckmate2.png"
+      image: ""
       detail_description: "NGS-based sample identity verification extended to various mammalian species for cross-species genomic research."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Durg respone detecion using histopathology"
+      description: ""
+      image: "WSI-msi.png"
+      detail_description: "AI-driven drug response prediction from histopathology images to guide personalized treatment decisions."
       paper_title: ""
       paper_link: ""
       highlight: false
@@ -90,7 +98,7 @@
   projects:
     - title: "Mendelian Randomization Analysis"
       description: "Causal inference in disease-trait relationships"
-      image: "network.png"
+      image: ""
       detail_description: "Mendelian Randomization (MR) analysis to establish causal relationships between genetic variants, biomarkers, and disease outcomes."
       paper_title: ""
       paper_link: ""

@@ -31,8 +31,8 @@ nav: false
     <div class="col-sm-8">
     {% else %}
     <div class="col-sm-4">
-      <div style="height: 250px; display: flex; align-items: center; justify-content: center;">
-        <span style="color: #999; font-size: 1.5rem; font-weight: 500;">Ongoing</span>
+      <div style="height: 250px; display: flex; align-items: flex-start; justify-content: center; padding-top: 1rem;">
+        <span style="color: #999; font-size: 1rem; font-weight: 500;">Ongoing</span>
       </div>
     </div>
     <div class="col-sm-8">
