@@ -65,7 +65,7 @@
       paper_link: ""
       highlight: true
 
-    - title: "Durg respone detecion using histopathology"
+    - title: "Drug Respone Prediction using Histopathology"
       description: ""
       image: "WSI-msi.png"
       detail_description: "AI-driven drug response prediction from histopathology images to guide personalized treatment decisions."

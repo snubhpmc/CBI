@@ -32,7 +32,7 @@ nav: false
     <div class="col-sm-8">
     {% else %}
     <div class="col-sm-4">
-      <div style="height: 80px;">
+      <div style="height: 50px;">
       </div>
     </div>
     <div class="col-sm-8">
