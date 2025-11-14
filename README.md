@@ -3,9 +3,21 @@
 
 ## 📝 데이터 업데이트 방법
 
-코드를 수정할 필요 없이 아래 파일들만 편집하면 웹사이트가 자동으로 업데이트됩니다.  
+! 코드를 수정할 필요 없이 아래 파일들만 편집하면 웹사이트가 자동으로 업데이트됩니다.  
 
-웹사이트의 모든 주요 데이터는 `_data/` 폴더의 YAML 파일에서 관리됩니다.
+
+HOME페이지의 lab goal 내용은 `_pages/` 폴더의 lab.md 에서 관리합니다. 
+```
+    Our lab is dedicated to transforming healthcare through data-driven approaches. Our research embodies true disciplinary convergence, integrating Engineering, Biology, and Medicine. By combining clinical data, genomics, and artificial intelligence, we advance precision medicine and improve patient outcomes.
+
+    **Our primary goal** is to support clinicians in molecular diagnosis and treatment decision-making, addressing every stage of the computational pipeline—from initial discovery to clinical translation.
+
+    We integrate clinical and genomic data to identify disease-associated molecular alterations and discover clinically significant biomarkers. These findings guide therapeutic selection through target gene-drug associations and inform the development of practical diagnostic platforms for real-world clinical use.
+
+```
+
+
+웹사이트의 모든 주요 데이터는 `_data/` 폴더의 YAML 파일에서 관리합니다.
 
 * research.yml  
 
@@ -45,7 +57,7 @@
 ```
 
 
-논문 리스트는 `_bibliopraphy/` 폴더의 papers.bib 파일에서 관리됩니다.   
+논문 리스트는 `_bibliopraphy/` 폴더의 papers.bib 파일에서 관리합니다.   
 
 
 ```
