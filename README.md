@@ -1,6 +1,10 @@
 
-# lab home page 
+# Lab-page 
+
 https://snubhpmc.github.io/CBI/
+
+<hr>
+
 
 
 ## 📝 데이터 업데이트 방법
