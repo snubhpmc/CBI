@@ -14,9 +14,10 @@ nav: false
 
 {% assign category = site.data.research | where: "category", "Multi-Omics Analysis" | first %}
 
-<hr>
 
 <h4 style="margin-top: 2rem; margin-bottom: 1.5rem;">Projects</h4>
+
+<hr>
 
 {% for project in category.projects %}
 <div style="padding: 2rem 0; {% if forloop.last == false %}border-bottom: 1px solid #e0e0e0;{% endif %}">
@@ -31,8 +32,7 @@ nav: false
     <div class="col-sm-8">
     {% else %}
     <div class="col-sm-4">
-      <div style="height: 250px; display: flex; align-items: flex-start; justify-content: center; padding-top: 1rem;">
-        <span style="color: #999; font-size: 1rem; font-weight: 500;">Ongoing</span>
+      <div style="height: 80px;">
       </div>
     </div>
     <div class="col-sm-8">

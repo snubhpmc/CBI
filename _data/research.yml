@@ -15,7 +15,7 @@
     - title: "Genome-Wide Association Studies"
       description: "Identifying genetic variants associated with complex diseases"
       image: ""
-      detail_description: "Disease variant analysis and biomarker discovery through comprehensive genome-wide association studies."
+      detail_description: ""
       paper_title: ""
       paper_link: ""
       highlight: false
@@ -23,15 +23,22 @@
     - title: "Bulk RNA-seq Analysis"
       description: "Differential expression analysis for disease mechanisms"
       image: ""
-      detail_description: "Bulk RNA-seq differential expression analysis and Transcriptome-wide association Studies (TWAS) for understanding disease mechanisms."
+      detail_description: ""
       paper_title: ""
       paper_link: ""
       highlight: false
 
     - title: "Single-Cell RNA Sequencing"
-      description: "Cellular heterogeneity analysis in disease contexts"
+      description: ""
       image: ""
-      detail_description: "Single-cell RNA-seq for analyzing cellular heterogeneity and spatial transcriptomics to understand tissue architecture."
+      detail_description: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Spatial Transcriptomics"
+      description: ""
+      image: ""
+      detail_description: ""
       paper_title: ""
       paper_link: ""
       highlight: false
@@ -58,14 +65,6 @@
       paper_link: ""
       highlight: true
 
-    - title: "NGSCheckMate2 for Mammals"
-      description: "Extended sample verification for mammalian species"
-      image: ""
-      detail_description: "NGS-based sample identity verification extended to various mammalian species for cross-species genomic research."
-      paper_title: ""
-      paper_link: ""
-      highlight: false
-
     - title: "Durg respone detecion using histopathology"
       description: ""
       image: "WSI-msi.png"
@@ -75,20 +74,13 @@
       highlight: false
 
     - title: "Tumor Purity Prediction"
-      description: "Computational prediction of tumor purity from genomic data"
+      description: ""
       image: ""
-      detail_description: "Machine learning-based tumor purity prediction to improve accuracy of downstream genomic analyses."
+      detail_description: ""
       paper_title: ""
       paper_link: ""
       highlight: false
 
-    - title: "Drug Response Prediction"
-      description: "AI-driven drug response prediction from histopathology images"
-      image: ""
-      detail_description: "Deep learning models for predicting drug response directly from histopathology images, enabling personalized treatment selection."
-      paper_title: ""
-      paper_link: ""
-      highlight: false
 
 - category: "Network Biology"
   category_ko: ""
@@ -133,11 +125,3 @@
       paper_title: ""
       paper_link: ""
       highlight: true
-
-    - title: "Korean STR Variation Database"
-      description: "Korean population short tandem repeat variation resource"
-      image: ""
-      detail_description: "Database of Short Tandem Repeat (STR) variations specific to Korean populations, enabling population-specific genetic research and clinical applications."
-      paper_title: ""
-      paper_link: ""
-      highlight: false
