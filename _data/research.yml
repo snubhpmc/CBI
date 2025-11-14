@@ -1,7 +1,7 @@
 
 - category: "Multi-Omics Analysis"
   category_ko: ""
-  description: "We utilize genomic data to develop personalized treatment strategies and improve patient outcomes through precision medicine approaches."
+  description: "We utilize multi-Omics data to develop personalized treatment strategies"
   keywords: "WGS, WES, RNA-seq, Single-Cell, Spatial Transcriptomics"
   order: 1
   projects:
@@ -85,7 +85,7 @@
 
 - category: "Network Biology"
   category_ko: ""
-  description: "Network analysis for drug repurposing and disease relationships"
+  description: "Network analysis for disease relationships and drug repurposing "
   keywords: "Mendelian Randomization, Drug Repurposing"
   order: 3
   projects:
@@ -119,10 +119,10 @@
   keywords: "Short Tandem Repeat, Transposable Elements"
   order: 4
   projects:
-    - title: "Korean TE Variation Database"
+    - title: "Korean TE insertion Database"
       description: "Korean population transposable elements variation resource"
       image: "KTED.png"
-      detail_description: "Comprehensive database of transposable element (TE) variations in Korean populations, providing population-specific genomic resources for precision medicine."
+      detail_description: "Comprehensive database of transposable element (TE) insertion in Korean populations, providing population-specific genomic resources for precision medicine."
       paper_title: ""
       paper_link: ""
       highlight: true
