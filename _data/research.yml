@@ -1,3 +1,4 @@
+
 - category: "Multi-Omics Analysis"
   category_ko: ""
   description: "We utilize genomic data to develop personalized treatment strategies and improve patient outcomes through precision medicine approaches."
@@ -114,7 +115,7 @@
 
 - category: "Database Resources"
   category_ko: ""
-  description: "Developing population-specific genomic resources to enable personalized medicine and facilitate genetic research in Korean populations."
+  description: "Developing population-specific genomic resources to enable genetic variant interpretation and facilitate genetic research in Korean populations."
   keywords: "Short Tandem Repeat, Transposable Elements"
   order: 4
   projects:
