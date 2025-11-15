@@ -58,7 +58,7 @@
       paper_link: ""
       highlight: false
 
-    - title: "Microsatellite Instability Analysis"
+    - title: "Microsatellite Instability Detection using DNA"
       description: "MSI analysis across cancer types for precision oncology"
       image: "DNA-msi.png"
       detail_description: "Comprehensive microsatellite instability (MSI) analysis across various cancer types to identify potential biomarkers for precision oncology and personalized treatment strategies."
@@ -66,7 +66,7 @@
       paper_link: ""
       highlight: true
 
-    - title: "MSI Detection using RNA-seq"
+    - title: "Microsatellite Instability Detection using RNA"
       description: "RNA-seq based microsatellite instability detection"
       image: "RNA-msi.png"
       detail_description: "MIRACLE: Microsatellite instability (MSI) detection using RNA-seq data, enabling MSI status determination without DNA sequencing."
@@ -74,7 +74,7 @@
       paper_link: ""
       highlight: true
 
-    - title: "Drug Respone Prediction using Histopathology"
+    - title: "Microsatellite Instability Detection using Histopathology"
       description: ""
       image: "WSI-msi.png"
       detail_description: "AI-driven drug response prediction from histopathology images to guide personalized treatment decisions."
