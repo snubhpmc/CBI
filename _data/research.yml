@@ -9,8 +9,8 @@
       description: "MSI analysis across cancer types for precision oncology"
       image: "DNA-msi.png"
       detail_description: "Comprehensive microsatellite instability (MSI) analysis across various cancer types to identify potential biomarkers for precision oncology and personalized treatment strategies."
-      paper_title: ""
-      paper_link: ""
+      paper_title: "A molecular portrait of microsatellite instability across multiple cancers"
+      paper_link: "https://www.nature.com/articles/ncomms15180"
       highlight: true
 
     - title: "Genome-Wide Association Studies"
@@ -63,15 +63,15 @@
       image: "DNA-msi.png"
       detail_description: "Comprehensive microsatellite instability (MSI) analysis across various cancer types to identify potential biomarkers for precision oncology and personalized treatment strategies."
       paper_title: ""
-      paper_link: ""
+      paper_link: 
       highlight: true
 
     - title: "Microsatellite Instability Detection using RNA"
       description: "RNA-seq based microsatellite instability detection"
       image: "RNA-msi.png"
       detail_description: "MIRACLE: Microsatellite instability (MSI) detection using RNA-seq data, enabling MSI status determination without DNA sequencing."
-      paper_title: ""
-      paper_link: ""
+      paper_title: "Detecting microsatellite instability by length comparison of microsatellites in the 3′ untranslated region with RNA-seq"
+      paper_link: "https://academic.oup.com/bib/article/25/5/bbae423/7743191"
       highlight: true
 
     - title: "Microsatellite Instability Detection using Histopathology"
