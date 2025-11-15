@@ -3,7 +3,7 @@ layout: page
 permalink: /people/
 title: People
 description: Our lab members
-nav: true
+nav: false
 nav_order: 4
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2017, 2016]
 ---

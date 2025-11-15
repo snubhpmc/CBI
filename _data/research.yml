@@ -1,7 +1,7 @@
 
 - category: "Multi-Omics Analysis"
   category_ko: ""
-  description: "We utilize multi-Omics data to develop personalized treatment strategies"
+  description: "We utilize multi-Omics data to investigate genetic and transcriptomic alterations associated with various diseases."
   keywords: "WGS, WES, RNA-seq, Single-Cell, Spatial Transcriptomics"
   order: 1
   projects:
@@ -54,6 +54,14 @@
       description: "Sample identity verification in human using NGS data"
       image: "checkmate.png"
       detail_description: "NGS-based sample identity verification tool for human samples to ensure data integrity and prevent sample mix-ups in genomic studies."
+      paper_title: ""
+      paper_link: ""
+      highlight: false
+
+    - title: "Microsatellite Instability Analysis"
+      description: "MSI analysis across cancer types for precision oncology"
+      image: "DNA-msi.png"
+      detail_description: "Comprehensive microsatellite instability (MSI) analysis across various cancer types to identify potential biomarkers for precision oncology and personalized treatment strategies."
       paper_title: ""
       paper_link: ""
       highlight: true
