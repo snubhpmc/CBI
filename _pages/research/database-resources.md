@@ -44,7 +44,7 @@ nav: false
       <p style="margin-top: 1rem; font-size: 0.85rem;">
         <i class="fas fa-users"></i> <strong>Collaborators:</strong>
         {% for collab in project.collaborators %}
-          <span style="display: inline-block; background: #f0f0f0; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem 0.2rem 0.2rem 0; font-size: 0.8rem;">{{ collab }}</span>
+          <span style="color: #007bff;">{{ collab }}</span>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </p>
       {% endif %}
