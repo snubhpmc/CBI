@@ -1,0 +1,23 @@
+- category: "Multi-Omics Analysis"
+  category_ko: ""
+  description: "We utilize multi-Omics data to investigate genetic and transcriptomic alterations associated with various diseases."
+  keywords: "WGS, WES, RNA-seq, Single-Cell, Spatial Transcriptomics"
+  order: 1
+
+- category: "Computational Method Development"
+  category_ko: ""
+  description: "Applying machine learning and deep learning techniques to clinical data for disease prediction, diagnosis, and treatment optimization."
+  keywords: "Genomic Data, Pathology Image, ML, CNN, smallVLM"
+  order: 2
+
+- category: "Network Biology"
+  category_ko: ""
+  description: "Network analysis for disease relationships and drug repurposing "
+  keywords: "Mendelian Randomization, Drug Repurposing"
+  order: 3
+
+- category: "Database Resources"
+  category_ko: ""
+  description: "Developing population-specific genomic resources to enable genetic variant interpretation and facilitate genetic research in Korean populations."
+  keywords: "Short Tandem Repeat, Transposable Elements"
+  order: 4
