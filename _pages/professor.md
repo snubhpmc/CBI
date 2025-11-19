@@ -9,7 +9,8 @@ nav_order: 4
 ---
 
 
-{% for member in site.data.team_members.principal_investigator %}
+{% assign pi = site.team | where: "role", "Principal Investigator" | sort: "order" %}
+{% for member in pi %}
 <div class="row" style="margin-bottom: 3rem;">
   <div class="col-sm-3">
     {% if member.photo %}
@@ -27,9 +28,7 @@ nav_order: 4
     </div>
 
     <div style="flex-grow: 1;">
-      {% if member.bio %}
-      <p>{{ member.bio }}</p>
-      {% endif %}
+      {{ member.content }}
     </div>
 
     <p style="display: flex; gap: 1rem; margin-bottom: 0;">
@@ -38,6 +37,9 @@ nav_order: 4
     {% endif %}
     {% if member.google_scholar %}
     <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    {% endif %}
+    {% if member.homepage %}
+    <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-university"></i> Homepage</a>
     {% endif %}
     </p>
   </div>

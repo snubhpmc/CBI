@@ -10,6 +10,7 @@ affiliation:
 email: sejooning@gmail.com
 photo: sjlee.jpg
 google_scholar: https://scholar.google.com/citations?user=GMRxCKIAAAAJ&hl=ko
+homepage: https://hst.snu.ac.kr/
 order: 1
 research_interests:
   - Clinical Bioinformatics
