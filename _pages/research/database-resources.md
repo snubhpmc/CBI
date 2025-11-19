@@ -40,6 +40,15 @@ nav: false
       </h5>
       <p style="margin-top: 1rem; color: #666;">{{ project.content }}</p>
 
+      {% if project.collaborators and project.collaborators.size > 0 %}
+      <p style="margin-top: 1rem; font-size: 0.85rem;">
+        <i class="fas fa-users"></i> <strong>Collaborators:</strong>
+        {% for collab in project.collaborators %}
+          <span style="display: inline-block; background: #f0f0f0; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem 0.2rem 0.2rem 0; font-size: 0.8rem;">{{ collab }}</span>
+        {% endfor %}
+      </p>
+      {% endif %}
+
       {% if project.paper_title and project.paper_title != "" %}
       <p style="margin-top: 1rem; font-size: 0.9rem;">
         <i class="fas fa-file-alt"></i> <strong>Related Publication:</strong><br>

@@ -1,8 +1,9 @@
 <div class="resources">
-  {% if site.data.resources != blank %}
+  {% assign resources = site.resources | sort: "order" %}
+  {% if resources.size > 0 %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% for item in site.data.resources %}
+        {% for item in resources %}
           <tr>
             <th scope="row" style="width: 25%">
               <span style="color: #666;">{{ item.category }}</span>
@@ -15,7 +16,7 @@
                 </svg>
               {% endif %}
               <br>
-              <span style="color: #666; font-size: 0.9rem;">{{ item.description }}</span>
+              <span style="color: #666; font-size: 0.9rem;">{{ item.content }}</span>
             </td>
           </tr>
         {% endfor %}

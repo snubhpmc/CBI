@@ -138,6 +138,9 @@ collections:
   team:
     output: true
     permalink: /people/:name/
+  resources:
+    output: false
+    permalink: /resources/:title/
 
 announcements:
   enabled: true

@@ -17,6 +17,9 @@ highlight: true  # 홈페이지에 강조 표시 여부
 order: 10  # 카테고리 내 순서 (작을수록 먼저 표시)
 paper_title: "Related Paper Title"
 paper_link: "https://..."
+collaborators:  # 협력 기관 (선택사항)
+  - Harvard Medical School
+  - Seoul National University Hospital
 ---
 
 프로젝트 상세 설명을 여기에 작성합니다.
