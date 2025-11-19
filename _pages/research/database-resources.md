@@ -12,14 +12,12 @@ nav: false
   </p>
 </div>
 
-{% assign category = site.data.research | where: "category", "Database Resources" | first %}
-
-
 <h4 style="margin-top: 2rem; margin-bottom: 1.5rem;">Projects</h4>
 
 <hr>
 
-{% for project in category.projects %}
+{% assign projects = site.projects | where: "category", "Database Resources" | sort: "order" %}
+{% for project in projects %}
 <div style="padding: 2rem 0; {% if forloop.last == false %}border-bottom: 1px solid #e0e0e0;{% endif %}">
   <div class="row">
     {% if project.image and project.image != "" %}
@@ -40,7 +38,7 @@ nav: false
       <h5 style="font-size: 1.3rem; font-weight: bold; color: #2c3e50;">
         {{ project.title }}
       </h5>
-      <p style="margin-top: 1rem; color: #666;">{{ project.detail_description }}</p>
+      <p style="margin-top: 1rem; color: #666;">{{ project.content }}</p>
 
       {% if project.paper_title and project.paper_title != "" %}
       <p style="margin-top: 1rem; font-size: 0.9rem;">

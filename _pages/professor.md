@@ -4,7 +4,7 @@ permalink: /professor/
 title: PI
 description: Principal investigator
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2017, 2016]
-nav: true
+nav: false
 nav_order: 4
 ---
 

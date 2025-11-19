@@ -2,7 +2,7 @@
 layout: page
 permalink: /members/
 title: Members
-nav: true
+nav: false
 nav_order: 5
 ---
 

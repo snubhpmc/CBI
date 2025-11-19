@@ -128,10 +128,16 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:title/
+    permalink: /news/:title/
   research:
     output: true
     permalink: /research/:title/
+  projects:
+    output: true
+    permalink: /research/:title/
+  team:
+    output: true
+    permalink: /people/:name/
 
 announcements:
   enabled: true
