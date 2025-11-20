@@ -33,15 +33,15 @@ nav_order: 4
 
     <p style="display: flex; gap: 1rem; margin-bottom: 0;">
     {% if member.email %}
-    <a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i> Email</a>
+    <a href="#" onclick="navigator.clipboard.writeText('{{ member.email }}'); alert('Email copied to clipboard!'); return false;" title="Click to copy email address"><i class="fas fa-envelope"></i> Email</a>
     {% endif %}
     {% if member.google_scholar %}
-    <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+    <a href="{{ member.google_scholar }}" target="_blank" title="Go to Google Scholar profile"><i class="ai ai-google-scholar"></i> Google Scholar</a>
     {% endif %}
     {% if member.homepage %}
-    <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-university"></i> Homepage</a>
+    <a href="{{ member.homepage }}" target="_blank" title="Go to university homepage"><i class="fas fa-university"></i> Homepage</a>
     {% endif %}
-    <a href="{{ '/teaching/' | relative_url }}"><i class="fas fa-chalkboard-teacher"></i> Teaching</a>
+    <a href="{{ '/teaching/' | relative_url }}" title="View teaching courses"><i class="fas fa-chalkboard-teacher"></i> Teaching</a>
     </p>
   </div>
 </div>
