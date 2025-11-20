@@ -1,7 +1,7 @@
 ---
 name: MIRACLE
 category: Software
-url: https://github.com/JinWookArgon/MIRACLE
+link: https://github.com/JinWookArgon/MIRACLE
 order: 2
 ---
 

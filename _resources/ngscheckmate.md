@@ -1,7 +1,7 @@
 ---
 name: NGSCheckMate
 category: Software
-url: https://github.com/parklab/NGSCheckMate
+link: https://github.com/parklab/NGSCheckMate
 order: 1
 ---
 
