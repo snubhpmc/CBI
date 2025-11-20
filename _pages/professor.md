@@ -41,6 +41,7 @@ nav_order: 4
     {% if member.homepage %}
     <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-university"></i> Homepage</a>
     {% endif %}
+    <a href="{{ '/teaching/' | relative_url }}"><i class="fas fa-chalkboard-teacher"></i> Teaching</a>
     </p>
   </div>
 </div>
