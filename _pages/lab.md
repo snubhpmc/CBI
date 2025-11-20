@@ -1,9 +1,13 @@
 
-**We are transforming healthcare through data-driven innovation.**
+<br>
+
+**We are transforming healthcare through data-driven innovation.**  
 By bridging Engineering, Biology, and Medicine, we integrate clinical data, genomics, and artificial intelligence to advance precision medicine and improve patient outcomes.
 
-**We solve real-world clinical challenges alongside physicians.**
+**We solve real-world clinical challenges alongside physicians.**  
 Working closely with our clinical collaborators, we develop tools that support physicians in molecular diagnosis and treatment decision-making. Our solutions span the entire pipeline—from initial discovery to clinical translation.
 
-**We find answers in data.**
+**We find answers in data.**  
 Through integrating clinical and genomic data, we identify disease-associated molecular alterations and discover clinically actionable biomarkers. These findings guide personalized therapeutic selection and inform the development of practical diagnostic platforms ready for real-world clinical use.
+
+<br>

@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: 
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Courses and teaching materials
 nav: false
-nav_order: 3---
+nav_order: 3
+---
 
 
 **Precision Medicine and Healthcare (M3384.000800)** 
