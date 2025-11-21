@@ -14,7 +14,7 @@ nav_order: 4
 <div class="row" style="margin-bottom: 3rem;">
   <div class="col-sm-3">
     {% if member.photo %}
-    <img src="{{ '/assets/img/team/' | append: member.photo | relative_url }}" class="img-fluid rounded-circle" alt="{{ member.name }}">
+    <img src="{{ '/assets/img/team/' | append: member.photo | relative_url }}" class="img-fluid rounded" alt="{{ member.name }}">
     {% endif %}
   </div>
   <div class="col-sm-9" style="display: flex; flex-direction: column;">

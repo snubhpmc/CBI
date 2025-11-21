@@ -13,19 +13,19 @@ nav_order: 3
   </p>
 </div>
 
-## Class
+#### Class
 
 **Precision Medicine and Healthcare (M3384.000800)**
 Precision medicine and healthcare are key elements of future medicine through the accumulation of medical information and the use of artificial intelligence. This course intends to give an overview of the various aspects of precision medicine and healthcare. The course will deal with genomics, medical images, artificial intelligence, and digital healthcare, providing a deeper understanding of precision medicine for students planning to pursue healthcare convergence studies.
 
 ---
 
-## Conference
+#### Conference
 
 *Coming soon...*
 
 ---
 
-## Society
+#### Society
 
 *Coming soon...*
