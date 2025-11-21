@@ -33,7 +33,7 @@ nav_order: 4
 
     <p style="display: flex; gap: 1rem; margin-bottom: 0;">
     {% if member.email %}
-    <a href="#" onclick="navigator.clipboard.writeText('{{ member.email }}'); alert('Email copied to clipboard!'); return false;" title="Click to copy email address"><i class="fas fa-envelope"></i> Email</a>
+    <a href="#" onclick="navigator.clipboard.writeText('{{ member.email }}'); return false;" title="Click to copy email address"><i class="fas fa-envelope"></i> Email</a>
     {% endif %}
     {% if member.google_scholar %}
     <a href="{{ member.google_scholar }}" target="_blank" title="Go to Google Scholar profile"><i class="ai ai-google-scholar"></i> Google Scholar</a>
