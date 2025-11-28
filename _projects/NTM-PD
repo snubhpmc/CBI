@@ -1,0 +1,21 @@
+---
+title: NTM-PD scRNA-seq analysis
+category: Multi-Omics Analysis  # 또는 Computational Method Development, Network Biology, Database Resources
+description: The molecular events that occur upon NTM infection are examined at the single-cell level.
+image:  # assets/img/research/ 폴더에 이미지 저장
+highlight: true  # 홈페이지에 강조 표시 여부
+order: 9  # 카테고리 내 순서 (작을수록 먼저 표시)
+paper_title: -
+paper_link: -
+collaborators:  # 협력 기관 (선택사항)
+  - Seoul National University Bundang Hospital
+---
+
+프로젝트 상세 설명을 여기에 작성합니다.
+마크다운 문법 사용 가능합니다.
+
+## Methods
+...
+
+## Results
+...
