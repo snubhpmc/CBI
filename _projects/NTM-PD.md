@@ -1,12 +1,9 @@
 ---
 title: NTM-PD
-category: Multi-Omics Analysis  # 또는 Computational Method Development, Network Biology, Database Resources
+category: Multi-Omics Analysis
 description: scRNA-seq analysis of NTM infection patients
-image:  # assets/img/research/ 폴더에 이미지 저장
 highlight: true  
 order: 9 
-paper_title: -
-paper_link: -
 collaborators: 
   - Seoul National University Bundang Hospital (Prof. Hyung-Jun Kim)
 ---
