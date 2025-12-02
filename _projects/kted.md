@@ -8,7 +8,7 @@ order: 40
 paper_title: "KTED: a comprehensive web-based database for transposable elements in the Korean genome"
 paper_link: "https://academic.oup.com/bioinformaticsadvances/article/4/1/vbae179/7905157"
 collaborators:
-  - Korea Research Instititue of Bioscience & Biotechnology
+  - KRIBB
   - Seoul National University Hospital
 ---
 
