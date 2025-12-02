@@ -2,7 +2,7 @@
 title: ICI_treatment_ST
 category: Multi-Omics Analysis
 description: Spatial Transcriptomics data of ICI treatment patients
-highlight: true  
+highlight: false  
 order: 7
 collaborators: 
   - Seoul National University Bundang Hospital (Prof. Hyojin Kim)

@@ -2,7 +2,7 @@
 title: Alzheimer's disease biomarker
 category: Multi-Omics Analysis
 description: Finding AD biomarker
-highlight: true
+highlight: false
 order: 8
 collaborators: 
   - Seoul National University Bundang Hospital (Prof. Young Ho Park, Jungmin Pyun)
