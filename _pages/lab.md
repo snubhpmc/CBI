@@ -5,8 +5,8 @@
 By bridging Engineering, Biology, and Medicine, we integrate clinical data, genomics, and artificial intelligence to advance precision medicine and improve patient outcomes.
 
 
-**Our ultimate goal is accurate variant interpretation for clinical decision-making.**
-All our research converges on a single mission: translating genomic variants into clinically actionable insights. We develop computational frameworks and clinical guidelines that integrate multi-omics data, population databases, and functional predictions to systematically assess variant pathogenicity and therapeutic implications.
+**Our goal is accurate variant interpretation for clinical decision-making.**
+Our research converges on a mission: translating genomic variants into clinically actionable insights. We develop computational frameworks and clinical guidelines that integrate multi-omics data, population databases, and functional predictions to systematically assess variant pathogenicity and therapeutic implications.
 
 
 **We solve real-world clinical challenges alongside physicians.**  
