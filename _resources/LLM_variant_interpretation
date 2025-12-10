@@ -1,0 +1,8 @@
+---
+name: Ai-based variants interpretation
+category: Software
+link: https://github.com/snubhpmc/LLM_ACMG
+order: 4
+---
+
+AI-driven variant classification tool that automates ACMG/AMP guideline-based interpretation to support clinical decision-making
