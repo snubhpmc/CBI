@@ -9,7 +9,7 @@ paper_title: "NGSCheckMate: software for validating sample identity in next-gene
 paper_link: "https://academic.oup.com/nar/article/45/11/e103/3079509?login=false"
 collaborators:
   - Harvard Medical School
-  - Samsung medical center
+  - Samsung Medical Center
 ---
 
 NGS-based sample identity verification tool for human samples to ensure data integrity and prevent sample mix-ups in genomic studies.
