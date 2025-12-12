@@ -4,7 +4,7 @@ role: PhD Student
 position: PhD candidate
 year: 2022-present
 email: jinoklee.01@gmail.com
-photo: jolee.jpg
+google_scholar: https://scholar.google.com/citations?user=egJ93-4AAAAJ&hl=ko
 order: 10
 research: Bioinformatics, Deep learning
 ---
