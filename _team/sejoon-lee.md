@@ -3,8 +3,8 @@ name: Sejoon Lee
 role: Principal Investigator
 position: Associated Professor
 affiliation:
-  - Precision Medicine Center, SNUBH
   - Department of Genomic Medicine, SNUBH
+  - Precision Medicine Center, SNUBH
   - Department of Pathology and Translational Medicine, SNUBH
   - Department of Applied Bioengineering, GSCST, SNU
 email: sejooning@gmail.com
